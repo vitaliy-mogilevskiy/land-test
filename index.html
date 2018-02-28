@@ -1,0 +1,454 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href='css/bootstrap.css' rel='stylesheet'>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src='js/packaged.min.js'></script>
+
+<script src="js/bootstrap.js"></script>
+
+<script src="js/MagnificPopup.js"></script>
+<link href='css/MagnificPopup.css' rel='stylesheet'>
+
+<link href='css/font-awesome.css' rel='stylesheet'>
+
+<link href='css/font-roboto.css' rel='stylesheet'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link href='css/jquery.fancybox.min.css' rel='stylesheet'>
+<script src="js/jquery.fancybox.min.js"></script>
+
+<link href='css/style.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!-- head -->
+<div class="head">
+	<div class="container"> 
+		<div class="row">
+			<div class="col-xs-12">
+					<ul class="top-menu">
+						<li><a href="#how-work">Как это работает</a></li>
+						<li><a href="#clientssay">Отзывы</a></li>
+						<li><a href="#contacts">Контакты</a></li>
+					</ul>						
+			</div>
+		</div>
+	</div>	
+</div>
+	<!-- logo -->
+	<div class="container logo-phone">
+		<div class="row">	
+			<div class="col-xs-12">
+				<div class="col-xs-6 logo"><a href="#"><img src="images/logo.png"></a></div>
+					<div class="col-xs-6 phone">
+						<div class="phone-text">
+						 <div class="phone-img "><img src="images/phone.png"></div>
+							<p>+38 (097) 757 71 71</p>
+							<button type="button" data-toggle="modal" data-target="#modal-form">Перезвонить мне</button>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+			<!-- всплывающее окно -->
+			<div class="modal fade" id="modal-form">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal">&times;</button>
+							<div class="modal-title">Перезвонить мне</div>
+						</div>
+						<div class="modal-body">
+							<form class="floap-form">
+								<div class="form-group row">
+								  <label for="floapinputname" class="col-xs-2 col-form-label">имя*</label>
+								  	<div class="col-xs-10 floap-input">
+									<input required type="text" class="form-control" id="inputname">
+								  </div>
+								</div>
+								<div class="form-group row">
+								  <label for="floapinputphone" class="col-xs-2 col-form-label">телефон*</label>
+								  <div class="col-xs-10 floap-input">
+									<input required type="tel" class="form-control" id="floapinputphone">
+								  </div>
+								</div>
+								<div class="form-group row">
+								  <div class="offset-sm-2 col-xs-10">
+									<button type="submit" class="btn btn-primary">Отправить</button>
+								  </div>
+								</div>
+				  			</form>	
+				  			
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+	
+	<!-- 1 block -->
+	<div id="counter" class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="text-left"><span>Антимагнитные пломбы</span>
+					<p>нашего производства позволяют решить проблемы хищения энергоносителей, с минимальными затратами времени и денег.</p>
+					</div>
+				
+				<div class="text-right">
+					<div class="akcia">Акция</div>
+						<p class="akcia-p">Отправте заявку сейчас и получите образцы для апробации</p>
+					<div class="free">Бесплатно!</div>
+					<form action="mailto:movial01@gmail.com" method="get">
+		  					<div class="form-right">
+								<label class="col-xs-2" for="name">Имя*</label>
+								<div class="col-xs-10"> 
+			  						<input required type="text" class="form-control" id="name">
+								</div>
+		  					</div>
+		  					<div class="form-right">
+								<label class="col-xs-2" for="phone">Телефон*</label>
+								<div class="col-xs-10"> 
+			  						<input required type="tel" class="form-control" id="phone">
+								</div>
+		  					</div>
+		 					<div class="form-right"> 
+		   						 <div class="col-xs-10">
+		   							<input type="submit" class="btn btn-default" name="submit" value="ОТПРАВИТЬ ЗАЯВКУ"></input>		
+		   						 </div>
+		  					</div>
+						</form>
+					</div>
+				</div>	
+			</div>	
+		</div>		
+	</div>
+	<!-- 1 end -->
+
+	<!-- 2 block -->
+	<div id="gray" class="why-us-main">
+		<div class="container">
+			<div class="row" >
+				<div class="col-xs-12 why-us"><span>Почему именно мы?</span></div>	
+					<div class="row">
+						<div class="container">
+							<div class="col-sm-4 col-xs-12 whyus-round">
+								<div class="img-round hidden-xs"><img src="images/wallet.png"></div> 
+								<div class="whyus-head">Сервис</div>
+								<div class="border-p"><p>Приемлемы любые, устраивающие Вас, условия оплаты (наличный / безналичный расчет)</p></div>
+							</div>
+							<div class="col-sm-4 col-xs-12 whyus-round">
+								<div class="img-round hidden-xs"><img src="images/your-logo.png"></div>  
+								<div class="whyus-head">Ваше лого</div> 
+								<div class="border-p"><p>В цену включена стоимость нанесения на пломбы логотипа или названия Вашей организации</p></div>
+							</div>
+							<div class="col-sm-4 col-xs-12 whyus-round">
+								<div class="img-round hidden-xs"><img src="images/bonus.png"></div>  
+								<div class="whyus-head">Бонусы</div> 
+								<div class="border-p"><p>Существует система бонусов для, организаций или лиц, способствующих продвижению нашей продукции</p></div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<!-- 2 end -->
+
+	<!-- 3 block -->	
+	<div id="our-production">
+		<div class="container">
+			<div class="row" >
+				<div class="col-xs-12 production"><span>Наша продукция</span></div>	
+					<div class="row">
+						<div class="col-sm-3 col-xs-6 production-img"><img src="images/production-1.png">
+							<div class="production-text">Компания является единственным в России разработчиком антимагнитных пломб</div>
+						</div>						
+						<div class="col-sm-3 col-xs-6 production-img"><img src="images/production-2.png">
+							<div class="production-text">Продукция сертифицирована и подтверждена патентами</div>
+						</div>	
+						<div class="col-sm-3 col-xs-6 production-img"><img src="images/production-3.png">
+							<div class="production-text">Максимальная чувствительность и защита от случайного срабатывания</div>
+						</div>
+						<div class="col-sm-3 col-xs-6 production-img"><img src="images/production-4.png">
+							<div class="production-text">Антимагнитную пломбу невозможно удалить/снять со счётчика</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<!-- 3 end -->
+
+	<!-- 4 block -->
+	<div id="how-work">
+		<div class="container">
+			<div class="row" >
+				<div class="howwork-head"><span>Как это работает?</span></div>	
+					<div class="row">
+						<div class="col-sm-6 col-xs-12 textvideo">
+							<div class="howwork"><span>1</span><p>Установка индикаторов магнитного воздействия (антимагнитных пломб) на приборы учета.</p></div>
+							<div class="howwork"><span>2</span><p>Визуальная фиксация воздействия магнитного поля при попытке остановки данных приборов путем воздействия магнитов</p></div>
+							<div class="howwork"><span>3</span><p>Взыскание штрафа с недобросовестных абонентов, что служит уроком для остальных и помогает Вам экономить.</p></div>
+						</div>
+						<div class="col-sm-6 col-xs-12 video"><a data-fancybox href="https://www.youtube.com/watch?v=f2NFbCuaVto&t&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0"><img src="images/IPad-Air-new.png"></a>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<!-- 4 end -->
+
+	<!-- 5 block-->
+	<div id="clientssay">
+		<div class="container">
+			<div class="row">			
+				<div class="clientssay-head"><span>Что говорят наши клиенты</span></div>
+						<div id="Carousel" class="carousel fdi-Carousel slide">
+							<div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
+								<div class="carousel-inner onebyone-carosel">
+									<div class="item active">
+										<div class="col-xs-4">
+											<a href="#"><img src="images/client-1.png" class="img-responsive center-block slider-img"></a>
+												<div class="slide-text">
+													<div class="name">Алексей</div>
+													<div class="date">06 августа 2013 в 12:47</div>
+													<div class="comment">Заказали пробную партию – все пломбы имеют серийный номер, выполнены качественно.</div>
+												</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="col-xs-4">
+											<a href="#"><img src="images/client-2.png" class="img-responsive center-block slider-img"></a>
+												<div class="slide-text">
+													<div class="name">Владимир</div>
+													<div class="date">15 октября 2013 в 10:13</div>
+													<div class="comment">Используем в нашем дачном кооперативе (АР Крым), очень удобно, моментально видно вмешательство приборы учета, на мой взгляд идеально для малых хозяйств</div>
+												</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="col-xs-4">
+											<a href="#"><img src="images/client-3.png" class="img-responsive center-block slider-img"></a>
+												<div class="slide-text">
+													<div class="name">Сергей</div>
+													<div class="date">08 декабря 2013 в 14:30</div>
+													<div class="comment">Купили для своих нужд пломбы ИМВ-1, пронумерованы в трех местах, оторвать или заменить её не возможно. Надеемся на будущую экономию.</div>
+												</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="col-xs-4">
+											<a href="#"><img src="images/client-4.png" class="img-responsive center-block slider-img"></a>
+												<div class="slide-text">
+													<div class="name">Алексей</div>
+													<div class="date">06 августа 2013 в 12:47</div>
+													<div class="comment">Заказали пробную партию – все пломбы имеют серийный номер, выполнены качественно.</div>
+												</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="col-xs-4">
+											<a href="#"><img src="images/client-5.png" class="img-responsive center-block slider-img"></a>
+												<div class="slide-text">
+													<div class="name">Владимир</div>
+													<div class="date">15 октября 2013 в 10:13</div>
+													<div class="comment">Используем в нашем дачном кооперативе (АР Крым), очень удобно, моментально видно вмешательство приборы учета, на мой взгляд идеально для малых хозяйств</div>
+												</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="col-xs-4">
+											<a href="#"><img src="images/client-6.png" class="img-responsive center-block slider-img"></a>
+												<div class="slide-text">
+													<div class="name">Сергей</div>
+													<div class="date">08 декабря 2013 в 14:30</div>
+													<div class="comment">Купили для своих нужд пломбы ИМВ-1, пронумерованы в трех местах, оторвать или заменить её не возможно. Надеемся на будущую экономию.</div>
+												</div>
+										</div>
+									</div>
+								</div>
+								<a class="left carousel-control arrow-left" href="#eventCarousel" data-slide="prev">
+									<!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+										<i class="fa fa-angle-left" ariarue"></i>
+								</a>
+								<a class="right carousel-control arrow-right" href="#eventCarousel" data-slide="next">
+									<!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
+									<i class="fa fa-angle-right" ariarue"></i>
+								</a>
+							</div>
+						</div>
+						
+				<div class="reed-more"><a href="https://www.google.com.ua">Читать все отзывы</a></div>
+			</div>
+		</div>
+	</div>
+			<script>
+				$(document).ready(function () {
+					$('#Carousel').carousel({
+						interval: 2000
+					})
+					$('.fdi-Carousel .item').each(function () {
+						var next = $(this).next();
+						if (!next.length) {
+							next = $(this).siblings(':first');
+						}
+						next.children(':first-child').clone().appendTo($(this));
+
+						if (next.next().length > 0) {
+							next.next().children(':first-child').clone().appendTo($(this));
+						}
+						else {
+							$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+						}
+					});
+				});
+			</script>
+	<!-- 5 end -->
+
+	<!-- 6 block -->
+	<div id="plomb">
+		<div class="container">
+			<div id="main_area">
+				<div class="row">
+					<div class="col-xs-12 main-text-head" id="slider"><span>Как выглядят пломбы и элементы защиты</span></div>
+						<div class="row">
+							<div class="col-xs-12" id="carousel-bounding-box">
+								<div class="carousel slide" id="myCarousel">
+									<div class="carousel-inner">
+										<div class="active item" data-slide-number="0"><img src="images/plomb-1.png"></div>
+										<div class="item" data-slide-number="1"><img src="images/plomb-1.png"></div>
+										<div class="item" data-slide-number="2"><img src="images/plomb-1.png"></div>
+									</div>
+
+									<a class="left carousel-control arrow-bg" href="#myCarousel" role="button" data-slide="prev">
+										<!-- <span class="glyphicon glyphicon-chevron-left"></span> -->									<i class="fa fa-angle-left" ariarue"></i>   
+									</a>
+									<a class="right carousel-control arrow-bg" href="#myCarousel" role="button" data-slide="next">
+										<!-- <span class="glyphicon glyphicon-chevron-right"></span> -->								 <i class="fa fa-angle-right" ariarue"></i>	   
+									</a>								
+								</div>
+							</div>
+								<div class="row" id="slider-thumbs">
+									<ul class="hide-bullets">
+										<li class="col-xs-4 img-bottom"><a class="thumbnail" id="carousel-selector-0"><img src="images/plomb-1.png"></a></li>
+										<li class="col-xs-4 img-bottom"><a class="thumbnail" id="carousel-selector-1"><img src="images/plomb-1.png"></a></li>
+										<li class="col-xs-4 img-bottom"><a class="thumbnail" id="carousel-selector-2"><img src="images/plomb-1.png"></a></li>
+									</ul>				 
+								</div>
+						</div>
+					
+				</div>
+			</div>		
+		</div>
+	</div>								<script>
+										  jQuery(document).ready(function($) {
+									 
+											$('#myCarousel').carousel({
+													interval: 3000
+											});
+									 
+											$('#carousel-text').html($('#slide-content-0').html());
+									 
+											//Handles the carousel thumbnails
+										   $('[id^=carousel-selector-]').click( function(){
+												var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+												var id = parseInt(id);
+												$('#myCarousel').carousel(id);
+											});
+									 
+									 
+											// When the carousel slides, auto update the text
+											$('#myCarousel').on('slid.bs.carousel', function (e) {
+													 var id = $('.item.active').data('slide-number');
+													$('#carousel-text').html($('#slide-content-'+id).html());
+											});
+									});
+									</script>		
+	<!-- 6 end -->
+
+	<!-- 7 block-->
+	<div id="gray" class="text-block-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 block-text">
+					<div class="first-row">1. Индикатор воздействия магнитного поля ИВМП-1-2 типа «ИН-АТ»<br> (ТУ  3428-001-22233259)</div>
+					<p><strong>Рабочая температура: -40 - +70 гр.С.<br>
+Количество видимых фигур на поверхности индикаторного элемента: одна стилизованная буква «А».</strong></p>
+					<div class="middle-row">Устройство и принцип действия индикатора.</div>
+					<p>Индикатор представляет собой магнитную систему, состоящую из ферромагнитного материала и закрепленной на нем магниточувствительной пленки.<br>
+Индикатор закреплен в пластиковом корпусе для монтажа и защиты от случайных механических повреждений.
+В исходном состоянии индикатора, параметры и конфигурация магнитного поля системы позволяют наблюдать невооруженным глазом при дневном освещении изображение на лицевой поверхности индикаторного элемента.<br>
+В случае воздействия внешнего магнитного поля, мощность которого превышает верхний порог, выходные параметры магнитной системы индикатора нарушаются, геометрические изображения на лицевой поверхности индикатора безвозвратно исчезают.</p>
+					<div class="middle-row">Пороги срабатывания:</div>
+					<p><strong>НИЖНИЙ</strong> - 100 млТл и менее, магнитная индукция, подведенная к поверхности индикатора, при которой влияние внешнего магнитного поля визуально не наблюдается.</p>
+
+					<p><strong>ВЕРХНИЙ</strong> - 420 млТл и более, магнитная индукция, подведенная к поверхности индикатора, при которой необратимо нарушаются выходные параметры магнитной системы индикатора.<br>Индикатор в пластиковом корпусе комплектуется пломбой - этикеткой. Этикетка надежно удерживает индикаторный элемент на поверхности счетчика. При попытке снятия индикатора, этикетка необратимо нарушается.	</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<!-- 7 end -->
+	<!-- 8 block form-->
+	<div id="form">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 form-head"><span>Закажите прямо сейчас и получите скидку 5%</span></div>
+						<form action="mailto:movial01@gmail.com" method="get" class="form-horizontal">
+		  					<div class="form-group">
+								<label class="col-xs-2" for="text">Имя*</label>
+								<div class="col-xs-10"> 
+			  						<input required type="text" class="form-control" id="text">
+								</div>
+		  					</div>
+		  					<div class="form-group">
+								<label class="col-xs-2" for="email">EMAIL*</label>
+									<div class="col-xs-10">
+			 							<input required type="email" class="form-control" id="email">
+									</div>
+		  					</div>
+		  					<div class="form-group">
+								<label class="col-xs-2" for="tel">Телефон*</label>
+								<div class="col-xs-10"> 
+			  						<input required type="tel" class="form-control" id="tel">
+								</div>
+		  					</div>
+		 					<div class="form-group"> 
+		   						 <div class="col-xs-10">
+		   							<input type="submit" name="submit" class="btn btn-default bottom-form" value="ОТПРАВИТЬ ЗАЯВКУ"></input>
+		   						 </div>
+		  					</div>
+						</form>
+					
+			</div>
+		</div>
+	</div>
+	<!-- 8 end-->
+	<!-- footer-->
+	<div id="contacts" class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 footer-gray">
+				<p>OOO «Белтехприбор» <br>308015, г.Белгород, ул.Сумская, д. 76 «б»</p>
+				<p>тел.  (495) 789 45 68   тел/факс  (495) 609 62 63<br>
+				тел.  (4722) 37 12 81   тел/факс  (4722) 20 73 84</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+				<p>©Антимагнит 2014</p>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  </body>
+</html>
